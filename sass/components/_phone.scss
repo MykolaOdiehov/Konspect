@@ -1,0 +1,37 @@
+@media (max-width:480px){
+.header{
+   display: flex;
+    border-bottom: 2px solid black ;
+}
+body{
+    background-color: rgb(0, 255, 42);
+    
+}
+.header .nav{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   min-height: 80px;
+    
+
+}
+.header__button-icon-phone{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.header__button-icon-phone .icon-cross{
+    display: none;
+}
+.header__button-icon-phone.is-open .icon-cross{
+    display: block;
+}
+.header__button-icon-phone.is-open .icon-menu{
+    display: none;
+}
+
+}
